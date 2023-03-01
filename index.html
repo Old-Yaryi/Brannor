@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" type="image/png" href="./img/title.png">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+  <link href="./css/normalize.css" rel="stylesheet">
+  <link href="./css/reset.css" rel="stylesheet">
+  <link href="./css/stile.css" rel="stylesheet">
+  <title>Brannor</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="header-top__left">
+            <img class="logo" src="./img/logo.png" alt="">
+            <form class="header-top__search">
+              <input type="search" name="sku" placeholder="Введите артикул товара…">
+              <button type="submit"></button>
+            </form>
+          </div>
+          <nav class="header-top__menu">
+            <div class="menu-block">
+              <div class="header-top__link">Компания</div>
+              <div class="header-top__submenu">
+                <div class="submenu-wrapper">
+                  <ul>
+                    <li><a class="menu-link" href="#">История</a></li>
+                    <li><a class="menu-link" href="#">Миссия и тестирование</a></li>
+                    <li><a class="menu-link" href="#">Cобственное производство</a></li>
+                    <li><a class="menu-link" href="#">Обучение</a></li>
+                    <li><a class="menu-link" href="#">Гарантийные обязательства</a></li>
+                  </ul> 
+                </div>
+              </div>
+            </div>
+            <div class="menu-block">
+              <div class="header-top__link">Продукция</div>
+              <div class="header-top__submenu">
+                <div class="submenu-wrapper">
+                  <ul>
+                    <li><a class="menu-link" href="#">Компоненты тормозных систем</a></li>
+                    <ol>
+                      <li><a class="menu-link" href="#">Тормозные диски</a></li>
+                      <li><a class="menu-link" href="#">Тормозные колодки</a></li>
+                    </ol>
+                  </ul>
+                  <ul>
+                    <li><a class="menu-link" href="">Преимущества</a></li>
+                    <ol>
+                      <li><a class="menu-link" href="">Керамический фрикционный материал</a></li>
+                      <li><a class="menu-link" href="">Защитное антикоррозийное покрытие</a></li>
+                      <li><a class="menu-link" href="">Высокоуглеродистые диски</a></li>
+                    </ol>
+                  </ul> 
+                </div>
+              </div>
+            </div>
+            <div class="menu-block">
+              <div class="header-top__link">Поддержка</div>
+              <div class="header-top__submenu">
+                <div class="submenu-wrapper">
+                  <ul>
+                    <li><a class="menu-link" href="#">Установка тормозных дисков</a></li>
+                    <li><a class="menu-link" href="#">Установка колодок</a></li>
+                    <li><a class="menu-link" href="#">Правильная прикатка</a></li>
+                    <li><a class="menu-link" href="#">Обслуживание тормозных механизмов</a></li>
+                  </ul> 
+                </div>
+              </div>
+            </div>
+            <div class="header-top__link">
+              <a class="menu-link" href="#">Где купить</a>
+            </div>
+          </nav>
+          <div class="header-top__right">
+            <div class="header-top__login">вход</div>
+            <div class="header-top__user">
+              <img src="./img/user.svg" alt="user">
+            </div>
+            <div class="header-top__cart">
+              <img src="./img/cart.svg" alt="cart">
+            </div>
+            <div class="header-top__language">
+              <img src="./img/lang.svg" alt="lang">
+              <select name="language" id="language">
+                <option value="ru">ru</option>
+                <option value="eng">en</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-search">
+      <form class="header-search__form" id="header-search" action="">
+        <div class="header-search__block">
+          <div class="header-search__input">
+            <input class="header-search__select"  type="search" name="brand" id="brand" value="" placeholder="Марка">
+          </div>
+          <div class="header-search__wrapper brand">
+            <label class="header-search__label" data-value="Acura">Acura</label>
+            <label class="header-search__label" data-value="Alfa Romeo">Alfa Romeo</label>
+            <label class="header-search__label" data-value="Audi">Audi</label>
+            <label class="header-search__label" data-value="BMW">BMW</label>
+            <label class="header-search__label" data-value="Cadillac">Cadillac</label>
+            <label class="header-search__label" data-value="Chevrolet">Chevrolet</label>
+            <label class="header-search__label" data-value="Chrysler">Chrysler</label>
+            <label class="header-search__label" data-value="Dodge">Dodge</label>
+            <label class="header-search__label" data-value="Fiat">Fiat</label>
+            <label class="header-search__label" data-value="Ford">Ford</label>
+            <label class="header-search__label" data-value="Geely">Geely</label>
+            <label class="header-search__label" data-value="Genesis">Genesis</label>
+            <label class="header-search__label" data-value="HAVAL">HAVAL</label>
+            <label class="header-search__label" data-value="Honda">Honda</label>
+            <label class="header-search__label" data-value="Hummer">Hummer</label>
+            <label class="header-search__label" data-value="Hyundai">Hyundai</label>
+            <label class="header-search__label" data-value="INFINITY">INFINITY</label>
+            <label class="header-search__label" data-value="Jaguar">Jaguar</label>
+            <label class="header-search__label" data-value="Jeep">Jeep</label>
+            <label class="header-search__label" data-value="KIA">KIA</label>
+            <label class="header-search__label" data-value="Land Rover">Land Rover</label>
+            <label class="header-search__label" data-value="Lexus">Lexus</label>
+            <label class="header-search__label" data-value="Maserati">Maserati</label>
+            <label class="header-search__label" data-value="Mazda">Mazda</label>
+            <label class="header-search__label" data-value="Mercedes">Mercedes</label>
+            <label class="header-search__label" data-value="Mini">Mini</label>
+            <label class="header-search__label" data-value="Mitsubishi">Mitsubishi</label>
+            <label class="header-search__label" data-value="Mitsubishi">Mitsubishi</label>
+            <label class="header-search__label" data-value="Opel">Opel</label>
+            <label class="header-search__label" data-value="Porsche">Porsche</label>
+            <label class="header-search__label" data-value="Renault">Renault</label>
+            <label class="header-search__label" data-value="Saab">Saab</label>
+            <label class="header-search__label" data-value="Subaru">Subaru</label>
+            <label class="header-search__label" data-value="Suzuki">Suzuki</label>
+            <label class="header-search__label" data-value="Tesla">Tesla</label>
+            <label class="header-search__label" data-value="Toyota">Toyota</label>
+            <label class="header-search__label" data-value="Volvo">Volvo</label>
+            <label class="header-search__label" data-value="VW">VW</label>
+          </div>
+        </div>
+        <div class="header-search__block">
+          <div class="header-search__input">
+            <input class="header-search__select" type="search" name="model" id="model" value="" placeholder="Модель">
+          </div>
+          <div class="header-search__wrapper model">
+            <label class="header-search__label" data-value="Mdx">Mdx</label>
+            <label class="header-search__label" data-value="Rdx">Rdx</label>
+            <label class="header-search__label" data-value="Rl">Rl</label>
+            <label class="header-search__label" data-value="Tlx">Tlx</label>
+            <label class="header-search__label" data-value="Zdx">Zdx</label>
+          </div>
+        </div>
+        <div class="header-search__block">
+          <div class="header-search__input">
+            <input class="header-search__select" type="search" name="year" id="year" value="" placeholder="Год">
+          </div>
+          <div class="header-search__wrapper year">
+            <label class="header-search__label" data-value="2007-2012">2007 - 2012</label>
+            <label class="header-search__label" data-value="2013 - 2017 (US Model)">2013 - 2017 (US Model)</label>
+            <label class="header-search__label" data-value="2014 - 2015 (EU Model)">2014 - 2015 (EU Model)</label>
+            <label class="header-search__label" data-value="2017 - 2020 (US Model)">2017 - 2020 (US Model)</label>
+          </div>
+        </div>
+        
+        <button type="submit" class="header-search__btn">Поиск по каталогу</button>
+      </form>
+    </div>
+  </header>
+  <main>
+
+  </main>
+  <footer>
+
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+</html>
